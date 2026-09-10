@@ -47,7 +47,7 @@ std::string clDeviceTypeToString(cl_device_type type)
 	}
 }
 
-unsigned int main()
+int main()
 {
 	// Пытаемся слинковаться с символами OpenCL API в runtime (через библиотеку libs/clew)
 	if(!ocl_init())
